@@ -1,5 +1,6 @@
 {
   "agenda": [
+    {"id": 11, "data": "2026-04-04", "hora": "16:00", "titulo": "🎂 Aniversário 1 ano da Antonella", "tipo": "evento", "local": "Residencial Noblesse - Águas Claras"},
     {"id": 10, "data": "2026-03-31", "hora": "", "titulo": "📚 Entregar trabalho escolar Sofia", "tipo": "pessoal"},
     {"id": 1, "data": "2026-03-30", "hora": "09:30", "titulo": "Entrevista — Sheila Lima Rodriguez", "tipo": "entrevista", "detalhes": {"email": "sheryrodriguez@hotmail.com", "telefone": "(71) 9 8751-5127", "cargo": "Cientista Social — UFBA"}},
     {"id": 2, "data": "2026-04-22", "hora": "16:30", "titulo": "Dentista das crianças", "tipo": "saude", "local": "https://maps.app.goo.gl/opFZr1yERP2hnnrM9"},
