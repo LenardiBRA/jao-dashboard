@@ -1,5 +1,6 @@
 {
   "agenda": [
+    {"id": 10, "data": "2026-03-31", "hora": "", "titulo": "📚 Entregar trabalho escolar Sofia", "tipo": "pessoal"},
     {"id": 1, "data": "2026-03-30", "hora": "09:30", "titulo": "Entrevista — Sheila Lima Rodriguez", "tipo": "entrevista", "detalhes": {"email": "sheryrodriguez@hotmail.com", "telefone": "(71) 9 8751-5127", "cargo": "Cientista Social — UFBA"}},
     {"id": 2, "data": "2026-04-22", "hora": "16:30", "titulo": "Dentista das crianças", "tipo": "saude", "local": "https://maps.app.goo.gl/opFZr1yERP2hnnrM9"},
     {"id": 3, "data": "2026-05-06", "hora": "14:15", "titulo": "✈️ Voo BSB → POA (LA 3953)", "tipo": "viagem", "detalhes": {"evento": "Certificação CEBAS — Fundação Projeto Pescar", "publico": "200 pessoas + virtual", "hotel": "Ibis Styles Porto Alegre Centro", "checkin": "06/05 15h", "checkout": "08/05 12h"}},
