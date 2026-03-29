@@ -1,0 +1,55 @@
+{
+  "agenda": [
+    {"id": 1, "data": "2026-03-30", "hora": "09:30", "titulo": "Entrevista — Sheila Lima Rodriguez", "tipo": "entrevista", "detalhes": {"email": "sheryrodriguez@hotmail.com", "telefone": "(71) 9 8751-5127", "cargo": "Cientista Social — UFBA"}},
+    {"id": 2, "data": "2026-04-22", "hora": "16:30", "titulo": "Dentista das crianças", "tipo": "saude", "local": "https://maps.app.goo.gl/opFZr1yERP2hnnrM9"},
+    {"id": 3, "data": "2026-05-06", "hora": "14:15", "titulo": "✈️ Voo BSB → POA (LA 3953)", "tipo": "viagem", "detalhes": {"evento": "Certificação CEBAS — Fundação Projeto Pescar", "publico": "200 pessoas + virtual", "hotel": "Ibis Styles Porto Alegre Centro", "checkin": "06/05 15h", "checkout": "08/05 12h"}},
+    {"id": 4, "data": "2026-05-07", "hora": "09:00", "titulo": "🎯 Evento CEBAS — Fundação Projeto Pescar", "tipo": "evento", "detalhes": {"fim": "17:00", "publico": "200 pessoas + virtual"}},
+    {"id": 5, "data": "2026-05-08", "hora": "17:25", "titulo": "✈️ Voo POA → BSB (LA 3225)", "tipo": "viagem"}
+  ],
+  "tarefas": {
+    "concluidas": [
+      {"id": 1, "titulo": "Whisper (transcrição de áudio)", "icone": "🎤"},
+      {"id": 2, "titulo": "PDF Extract", "icone": "📄"},
+      {"id": 3, "titulo": "Automation Workflows", "icone": "🔧"},
+      {"id": 4, "titulo": "GitHub conectado (LenardiBRA)", "icone": "💻"},
+      {"id": 5, "titulo": "Agenda configurada (cron 7h)", "icone": "⏰"}
+    ],
+    "pendentes": [
+      {"id": 6, "titulo": "Google Workspace OAuth", "descricao": "Configurar Gmail, Calendar, Drive", "icone": "📧"},
+      {"id": 7, "titulo": "Self-Improving Agent", "descricao": "Ativar análise automática", "icone": "🧠"},
+      {"id": 8, "titulo": "BYOK OpenAI", "descricao": "Cadastrar key ($5 crédito)", "icone": "🤖"},
+      {"id": 9, "titulo": "Dashboard", "descricao": "Em construção", "icone": "📊"}
+    ]
+  },
+  "agentes": [
+    {"nome": "Jão", "status": "online", "modelo": "kilo-auto (free)", "uptime": "5h+", "skills": [
+      {"nome": "Whisper", "icone": "🎤", "status": "ativo"},
+      {"nome": "PDF Extract", "icone": "📄", "status": "ativo"},
+      {"nome": "Automation", "icone": "🔧", "status": "ativo"},
+      {"nome": "Self-Improve", "icone": "🧠", "status": "pendente"},
+      {"nome": "Tarefas", "icone": "📋", "status": "ativo"}
+    ]}
+  ],
+  "documentos": [
+    {"nome": "Voucher Hotel Porto Alegre", "tipo": "PDF", "tamanho": "156KB", "categoria": "Viagens", "data": "22/03/2026"},
+    {"nome": "Bilhete Aéreo BSB↔POA", "tipo": "PDF", "tamanho": "142KB", "categoria": "Viagens", "data": "22/03/2026"},
+    {"nome": "Currículo — Sheila Lima Rodriguez", "tipo": "PDF", "tamanho": "89KB", "categoria": "Recrutamento", "data": "29/03/2026"}
+  ],
+  "custos": {
+    "hospedagem": {"descricao": "KiloClaw", "valor": "R$ 42,00/mês"},
+    "modelos": {"descricao": "Modelos grátis", "valor": "R$ 0,00"},
+    "byok": {"descricao": "OpenAI crédito", "valor": "$5,00"},
+    "total": "R$ 42,00/mês"
+  },
+  "stats": {
+    "requests_hoje": 42,
+    "requests_limite": 200,
+    "tokens_entrada": "45.2k",
+    "tokens_saida": "12.8k",
+    "audios_transcritos": 8,
+    "pdfs_extraidos": 2,
+    "skills_ativas": 5,
+    "compromissos": 5,
+    "documentos": 3
+  }
+}
