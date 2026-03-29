@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Home, Calendar, CheckSquare, Bot, FileText, Settings } from 'lucide-react'
+import { Home, Calendar, CheckSquare, Bot, FileText, Settings, Clock } from 'lucide-react'
 
 const menuItems = [
   { href: '/dashboard', label: 'Visão Geral', icon: Home },
@@ -10,6 +10,7 @@ const menuItems = [
   { href: '/dashboard/tarefas', label: 'Tarefas', icon: CheckSquare },
   { href: '/dashboard/agentes', label: 'Agentes', icon: Bot },
   { href: '/dashboard/documentos', label: 'Documentos', icon: FileText },
+  { href: '/dashboard/cron', label: 'Cron Jobs', icon: Clock },
   { href: '/dashboard/configuracoes', label: 'Configurações', icon: Settings },
 ]
 

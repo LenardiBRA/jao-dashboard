@@ -1,5 +1,10 @@
 import dados from '@/data/dados.json'
 
+function formatarData(data: string) {
+  const [ano, mes, dia] = data.split('-')
+  return `${dia}/${mes}/${ano}`
+}
+
 export default function AgendaPage() {
   const { agenda } = dados
 
@@ -24,7 +29,7 @@ export default function AgendaPage() {
                 }`}>{item.tipo}</span>
               </div>
               <div className="text-[#888] text-sm">
-                📅 {item.data} às {item.hora}
+                📅 {formatarData(item.data)} às {item.hora}
               </div>
               {item.detalhes && (
                 <div className="mt-2 text-[#888] text-xs space-y-1">
